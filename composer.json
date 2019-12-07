@@ -68,53 +68,53 @@
     "extra": {
         "patches": {
             "drupal/bootstrap_tour": {
-                "#2533524: Patch to fix secondary tours not running after you end the first one.": "http://www.drupal.org/files/issues/add_unique_tour_name_to_avoid_local_storage_collisions-2533524-9.patch"
+                "#2533524: Patch to fix secondary tours not running after you end the first one.": "https://www.drupal.org/files/issues/add_unique_tour_name_to_avoid_local_storage_collisions-2533524-9.patch"
             },
             "drupal/calendar": {
-                "#2160183: Undefined index: groupby_times": "http://www.drupal.org/files/issues/calendar-2160183-18.patch"
+                "#2160183: Undefined index: groupby_times": "https://www.drupal.org/files/issues/calendar-2160183-18.patch"
             },
             "drupal/ctools": {
-                "#2643108: Entity reference popup not centered in Linux": "http://www.drupal.org/files/issues/ctools-fix_modal_position_after_ajax-1803104-25.patch"
+                "#2643108: Entity reference popup not centered in Linux": "https://www.drupal.org/files/issues/ctools-fix_modal_position_after_ajax-1803104-25.patch"
             },
             "drupal/date": {
-                "#3067396: Date CSS not added for date_select Form API elements": "http://www.drupal.org/files/issues/2019-07-16/date-select-css-3067396-3.patch"
+                "#3067396: Date CSS not added for date_select Form API elements": "https://www.drupal.org/files/issues/2019-07-16/date-select-css-3067396-3.patch"
             },
             "drupal/drupal": {
-                "#995156: Patch core to use vocabulary machine names in permissions": "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions_0.patch",
-                "#2057693: Patch core to fix 'PostgreSQL orderBy method adds fields it doesn't need to, leading to fatal errors when the result; is used as an insert subquery'": "http://www.drupal.org/files/issues/2019-04-30/2057693-D7-42.patch"
+                "#995156: Patch core to use vocabulary machine names in permissions": "https://drupal.org/files/issues/995156-5_portable_taxonomy_permissions_0.patch",
+                "#2057693: Patch core to fix 'PostgreSQL orderBy method adds fields it doesn't need to, leading to fatal errors when the result; is used as an insert subquery'": "https://www.drupal.org/files/issues/2019-04-30/2057693-D7-42.patch"
             },
             "drupal/feeds": {
-                "#1428096: Import using label of list field succeeds, but item not selected in list field": "http://www.drupal.org/files/issues/feeds-map-to-allowed-value-1428096-8.patch"
+                "#1428096: Import using label of list field succeeds, but item not selected in list field": "https://www.drupal.org/files/issues/feeds-map-to-allowed-value-1428096-8.patch"
             },
             "drupal/geofield": {
-                "#1350320: fix deleting map features.": "http://www.drupal.org/files/issues/geofield-delete_feature_fix-1350320-20.patch"
+                "#1350320: fix deleting map features.": "https://www.drupal.org/files/issues/geofield-delete_feature_fix-1350320-20.patch"
             },
             "drupal/geophp": {
-                "#2625348: use BCMath for arithmetic.": "http://www.drupal.org/files/issues/geophp_bcmath-2625348-1.patch"
+                "#2625348: use BCMath for arithmetic.": "https://www.drupal.org/files/issues/geophp_bcmath-2625348-1.patch"
             },
             "drupal/openlayers": {
-                "#2620098: Move Elements dependency to Openlayers Examples.": "http://www.drupal.org/files/issues/openlayers_examples_elements_dependency-2620098-2.patch",
-                "#2680273: Switch to ROADMAP when zoomed further than Google's max zoom level": "http://www.drupal.org/files/issues/openlayers_gmap_zoom_switch_type-2680273-1.patch",
-                "#2687781: Add a jQuery trigger event when popups are displayed.": "http://www.drupal.org/files/issues/openlayers_popup_trigger-2687781-1.patch",
-                "#2644580: Maps with Google layers break when loaded in invisible element": "http://www.drupal.org/files/issues/openlayers_googlemaps_refresh-2644580-19.patch",
-                "#2911611: Update ZoomToSource Component: use new view.animate() method.": "http://www.drupal.org/files/issues/openlayers_ol4_zoomtosource-2911611-4.patch",
-                "#2946213: Google maps do not support fractional zoom": "http://www.drupal.org/files/issues/openlayers_googlemaps_fractional_zoom-2946213-2.patch",
-                "#3006751: PHP 7 support": "http://www.drupal.org/files/issues/2018-10-30/openlayers-2952602-6-php-72.patch",
-                "#2543130: Remove base layer assignment code.": "http://www.drupal.org/files/issues/2018-11-01/openlayers_base_layer_mechanism-2543130-12.patch"
+                "#2620098: Move Elements dependency to Openlayers Examples.": "https://www.drupal.org/files/issues/openlayers_examples_elements_dependency-2620098-2.patch",
+                "#2680273: Switch to ROADMAP when zoomed further than Google's max zoom level": "https://www.drupal.org/files/issues/openlayers_gmap_zoom_switch_type-2680273-1.patch",
+                "#2687781: Add a jQuery trigger event when popups are displayed.": "https://www.drupal.org/files/issues/openlayers_popup_trigger-2687781-1.patch",
+                "#2644580: Maps with Google layers break when loaded in invisible element": "https://www.drupal.org/files/issues/openlayers_googlemaps_refresh-2644580-19.patch",
+                "#2911611: Update ZoomToSource Component: use new view.animate() method.": "https://www.drupal.org/files/issues/openlayers_ol4_zoomtosource-2911611-4.patch",
+                "#2946213: Google maps do not support fractional zoom": "https://www.drupal.org/files/issues/openlayers_googlemaps_fractional_zoom-2946213-2.patch",
+                "#3006751: PHP 7 support": "https://www.drupal.org/files/issues/2018-10-30/openlayers-2952602-6-php-72.patch",
+                "#2543130: Remove base layer assignment code.": "https://www.drupal.org/files/issues/2018-11-01/openlayers_base_layer_mechanism-2543130-12.patch"
             },
             "drupal/pathauto": {
-                "#2582655: fix sqlite3 issue": "http://www.drupal.org/files/issues/2582655-path-pathauto-is-alias-reserved-db-query.patch"
+                "#2582655: fix sqlite3 issue": "https://www.drupal.org/files/issues/2582655-path-pathauto-is-alias-reserved-db-query.patch"
             },
             "drupal/restws": {
-                "#2857490: Add ability to filter by entity bundle.": "http://www.drupal.org/files/issues/restws-2857490-2-Filter-by-bundle.patch",
-                "#2090177: Possible misuse of 'bundle keys'": "http://www.drupal.org/files/issues/restws-bundleKeyTerms-2090177-12.patch",
-                "#1084144: Respond to CORS preflight requests": "http://www.drupal.org/files/issues/2019-06-17/restws-support_options_request-1084144-11-18.patch"
+                "#2857490: Add ability to filter by entity bundle.": "https://www.drupal.org/files/issues/restws-2857490-2-Filter-by-bundle.patch",
+                "#2090177: Possible misuse of 'bundle keys'": "https://www.drupal.org/files/issues/restws-bundleKeyTerms-2090177-12.patch",
+                "#1084144: Respond to CORS preflight requests": "https://www.drupal.org/files/issues/2019-06-17/restws-support_options_request-1084144-11-18.patch"
             },
             "drupal/restws_file": {
-                "#3019850: Notice: Trying to get property of non-object in restws_file_restws_request_alter() (line 30 of restws_file.module).": "http://www.drupal.org/files/issues/2019-10-26/restws_file-bundlenotice-3019850-3.patch"
+                "#3019850: Notice: Trying to get property of non-object in restws_file_restws_request_alter() (line 30 of restws_file.module).": "https://www.drupal.org/files/issues/2019-10-26/restws_file-bundlenotice-3019850-3.patch"
             },
             "drupal/views": {
-                "#3065777: Fix PHP Notice: Undefined variable: options in views_handler_filter_term_node_tid->value_form()": "http://www.drupal.org/files/issues/2019-07-03/views-3065777-2.patch"
+                "#3065777: Fix PHP Notice: Undefined variable: options in views_handler_filter_term_node_tid->value_form()": "https://www.drupal.org/files/issues/2019-07-03/views-3065777-2.patch"
             }
         }
     }
