@@ -1,0 +1,143 @@
+{
+    "name": "farmos/farmos",
+    "type": "drupal-profile",
+    "authors": [
+        {
+            "name": "m.stenta",
+            "homepage": "https://www.drupal.org/user/581414"
+        }
+    ],
+    "homepage": "https://www.drupal.org/project/farm",
+    "support": {
+        "source": "https://git.drupalcode.org/project/farm"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org/"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "samsono/easy-responsive-tabs",
+                "version": "1.2.2",
+                "dist": {
+                    "url": "https://github.com/samsono/Easy-Responsive-Tabs-to-Accordion/archive/1.2.2.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">= 5.5",
+        "ext-bc-math": "*",
+        "npm-asset/backbone": "1.4.0",
+        "samsono/easy-responsive-tabs": "1.2.2",
+        "npm-asset/modernizr": "2.8.3",
+        "npm-asset/openlayers": "4.6.4",
+        "npm-asset/underscore": "1.9.1",
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/preserve-paths": "^0.1",
+        "drupal/bootstrap": "^3.26",
+        "drupal/bootstrap_tour": "^2.5",
+        "drupal/calendar": "^3.5",
+        "drupal/colorbox": "^2.13",
+        "drupal/ctools": "^1.15",
+        "drupal/date": "^2.11-beta3",
+        "drupal/diff": "^3.4",
+        "drupal/drupal": "~7.0",
+        "drupal/entity": "^1.9",
+        "drupal/entityreference": "^1.5",
+        "drupal/entityreference_view_widget": "^2.1",
+        "drupal/exif_orientation": "^1.2",
+        "drupal/features": "^2.11",
+        "drupal/feeds": "^2.0-beta4",
+        "drupal/feeds_tamper": "^1.2",
+        "drupal/field_collection": "^1.1",
+        "drupal/field_group": "^1.6",
+        "drupal/field_group_easy_responsive_tabs": "^1.2",
+        "drupal/fraction": "^1.8",
+        "drupal/geocoder": "^1.4",
+        "drupal/geofield": "^2.4",
+        "drupal/geophp": "1.x-dev",
+        "drupal/inline_entity_form": "^1.9",
+        "drupal/job_scheduler": "^2.0",
+        "drupal/jquery_update": "^3.0-alpha5",
+        "drupal/libraries": "^2.5",
+        "drupal/log": "^1.13",
+        "drupal/module_filter": "^2.2",
+        "drupal/multiupload_filefield_widget": "^1.13",
+        "drupal/multiupload_imagefield_widget": "^1.3",
+        "drupal/navbar": "^1.7",
+        "drupal/openlayers": "3.x-dev#569e90ca74ea1862c9ecfbc16836242e205de778",
+        "drupal/openlayers_geolocate_button": "^3.2",
+        "drupal/pathauto": "^1.3",
+        "drupal/pathauto_entity": "^1.0",
+        "drupal/registry_autoload": "^1.3",
+        "drupal/restws": "^2.8",
+        "drupal/restws_field_collection": "^1.1",
+        "drupal/restws_file": "^1.3",
+        "drupal/service_container": "^1.0-beta5",
+        "drupal/strongarm": "^2.0",
+        "drupal/token": "^1.7",
+        "drupal/views": "^3.23",
+        "drupal/views_bulk_operations": "^3.5",
+        "drupal/views_data_export": "^3.2",
+        "drupal/views_geojson": "^1.0-beta3",
+        "drupal/views_tree": "^2.0",
+    },
+    "extra": {
+        "patches": {
+            "drupal/bootstrap_tour": {
+                "#2533524: Patch to fix secondary tours not running after you end the first one.": "http://www.drupal.org/files/issues/add_unique_tour_name_to_avoid_local_storage_collisions-2533524-9.patch"
+            },
+            "drupal/calendar": {
+                "#2160183: Undefined index: groupby_times": "http://www.drupal.org/files/issues/calendar-2160183-18.patch"
+            },
+            "drupal/ctools": {
+                "#2643108: Entity reference popup not centered in Linux": "http://www.drupal.org/files/issues/ctools-fix_modal_position_after_ajax-1803104-25.patch"
+            },
+            "drupal/date": {
+                "#3067396: Date CSS not added for date_select Form API elements": "http://www.drupal.org/files/issues/2019-07-16/date-select-css-3067396-3.patch"
+            },
+            "drupal/drupal": {
+                "#995156: Patch core to use vocabulary machine names in permissions": "http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions_0.patch",
+                "#2057693: Patch core to fix 'PostgreSQL orderBy method adds fields it doesn't need to, leading to fatal errors when the result; is used as an insert subquery'": "http://www.drupal.org/files/issues/2019-04-30/2057693-D7-42.patch"
+            },
+            "drupal/feeds": {
+                "#1428096: Import using label of list field succeeds, but item not selected in list field": "http://www.drupal.org/files/issues/feeds-map-to-allowed-value-1428096-8.patch"
+            },
+            "drupal/geofield": {
+                "#1350320: fix deleting map features.": "http://www.drupal.org/files/issues/geofield-delete_feature_fix-1350320-20.patch"
+            },
+            "drupal/geophp": {
+                "#2625348: use BCMath for arithmetic.": "http://www.drupal.org/files/issues/geophp_bcmath-2625348-1.patch"
+            },
+            "drupal/openlayers": {
+                "#2620098: Move Elements dependency to Openlayers Examples.": "http://www.drupal.org/files/issues/openlayers_examples_elements_dependency-2620098-2.patch",
+                "#2680273: Switch to ROADMAP when zoomed further than Google's max zoom level": "http://www.drupal.org/files/issues/openlayers_gmap_zoom_switch_type-2680273-1.patch",
+                "#2687781: Add a jQuery trigger event when popups are displayed.": "http://www.drupal.org/files/issues/openlayers_popup_trigger-2687781-1.patch",
+                "#2644580: Maps with Google layers break when loaded in invisible element": "http://www.drupal.org/files/issues/openlayers_googlemaps_refresh-2644580-19.patch",
+                "#2911611: Update ZoomToSource Component: use new view.animate() method.": "http://www.drupal.org/files/issues/openlayers_ol4_zoomtosource-2911611-4.patch",
+                "#2946213: Google maps do not support fractional zoom": "http://www.drupal.org/files/issues/openlayers_googlemaps_fractional_zoom-2946213-2.patch",
+                "#3006751: PHP 7 support": "http://www.drupal.org/files/issues/2018-10-30/openlayers-2952602-6-php-72.patch",
+                "#2543130: Remove base layer assignment code.": "http://www.drupal.org/files/issues/2018-11-01/openlayers_base_layer_mechanism-2543130-12.patch"
+            },
+            "drupal/pathauto": {
+                "#2582655: fix sqlite3 issue": "http://www.drupal.org/files/issues/2582655-path-pathauto-is-alias-reserved-db-query.patch"
+            },
+            "drupal/restws": {
+                "#2857490: Add ability to filter by entity bundle.": "http://www.drupal.org/files/issues/restws-2857490-2-Filter-by-bundle.patch",
+                "#2090177: Possible misuse of 'bundle keys'": "http://www.drupal.org/files/issues/restws-bundleKeyTerms-2090177-12.patch",
+                "#1084144: Respond to CORS preflight requests": "http://www.drupal.org/files/issues/2019-06-17/restws-support_options_request-1084144-11-18.patch"
+            },
+            "drupal/restws_file": {
+                "#3019850: Notice: Trying to get property of non-object in restws_file_restws_request_alter() (line 30 of restws_file.module).": "http://www.drupal.org/files/issues/2019-10-26/restws_file-bundlenotice-3019850-3.patch"
+            },
+            "drupal/views": {
+                "#3065777: Fix PHP Notice: Undefined variable: options in views_handler_filter_term_node_tid->value_form()": "http://www.drupal.org/files/issues/2019-07-03/views-3065777-2.patch"
+            }
+        }
+    }
+}
