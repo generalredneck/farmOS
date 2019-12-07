@@ -30,7 +30,7 @@
     ],
     "require": {
         "php": ">= 5.5",
-        "ext-bc-math": "*",
+        "ext-bcmath": "*",
         "npm-asset/backbone": "1.4.0",
         "samsono/easy-responsive-tabs": "1.2.2",
         "npm-asset/modernizr": "2.8.3",
